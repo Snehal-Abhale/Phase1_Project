@@ -1,0 +1,71 @@
+<html>
+    <head>
+        <title>Spice Factory</title>
+        <link rel="stylesheet" type="text/css" href="style.css" />
+        <script defer src="./index.js"></script>
+    </head>
+    <body>
+       
+        <div style="text-align: center;">
+        <h1>Welcome to Spice Factory</h1>
+        <img src="https://media.istockphoto.com/id/938050806/photo/variety-of-spices-and-herbs-on-kitchen-table.jpg?s=612x612&w=0&k=20&c=DK7fJc89MKhs_xSNHpyrx8KQE5o3Uou6muVYDwuu-UE=" height="200px"/>
+        <br></br>
+        
+        <div class="tab">
+            <button id="category1">Hot Spices</button>
+            <button id="category2">Mild Flavored Spices</button>
+            <button id="category3">Aromatic Spices</button>
+            <button id="category4">Aromatic Herbs and Vegetables</button>
+          </div>
+        </div>
+      
+        
+        <div id="containerDiv" class="center">
+
+        </div>
+        <br></br>
+        <div id="container">
+            <form class="add-item-form">
+              <h3>Add a new Item!</h3>
+              <input
+              type="text"
+              name="category"
+              value=""
+              placeholder="Enter the spice category...(eg.Hot spices/Mild Flavored Spices/Aromatic Spices/Aromatic Herbs and Vegetables)"
+              class="input-text"
+            />
+            <br />
+              <input
+                type="text"
+                name="name"
+                value=""
+                placeholder="Enter a spice name..."
+                class="input-text"
+              />
+              <br />
+              <input
+                type="text"
+                name="image"
+                value=""
+                placeholder="Enter a spice image URL..."
+                class="input-text"
+              />
+              <br />
+              <input
+                type="text"
+                name="Quantity"
+                value=""
+                placeholder="Enter a spice Quantity..."
+                class="input-text"
+              />
+              <br />
+              <input
+                type="submit"
+                name="submit"
+                value="Add a new Spice"
+                class="submit"
+              />
+            </form>
+          </div>
+    </body>
+</html>
